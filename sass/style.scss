@@ -1,0 +1,16 @@
+@import 'variables';
+@import 'menu';
+@import 'main';
+@import 'restodeCss';
+@import 'mediaQuery';
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: $font-family;
+    background-color: $back-body;
+    text-align: center;
+    color: white
+}

@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    /* IMPORTANTE ESTO LE 
+    QUITA LOS PUNTOS DE DEFAULT DE UL O OL
+    Y EL SUBRAYADO A LOS LINKS. Si no quieres que 
+    tenga un punto cuando hagas listas esto lo quita.
+     */
+    cursor: pointer;
+    /* esto hace que cuando 
+    pases el cursor encima se muestre una manita */
+}
+
+/* Sección Filosofía */
+main .SectionFilosofia {
+    height: 200px;
+    background-color: cornsilk;
+}
+
+main .SectionFilosofiaAntesparacrearespaciovacioporquenosupecomohacerloymedesespere {
+    height: 50px;
+    background-color: cornsilk;
+}
+
+main .MainParrafoBio {
+    position: relative;
+    text-align: center;
+    color: rgb(29, 14, 14);
+    font-style: italic;
+    font-size: xx-large;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main .MainImagenes {
+    margin-top: 0 auto;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+/* cierre sección de filosifía */
+
+
+/* Sección Colecciones */
+main .maincoleccion-camisetas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    grid-auto-rows: minmax(100px, auto);
+    background-color: black;
+    justify-content: center;
+}
+
+main .maincoleccion-camisetas p {
+    color: blanchedalmond;
+}
+
+/* Fin sección Colecciones */
+
+
+/* seccion ofertas  */
+main .MainTablaPrecios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px 500px 100px 200px;
+    background-color: #922323;
+}
+
+main .tablaPrecios {
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+main .MainTituloTablaPrecios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    color: blanchedalmond;
+    background-color: #922323;
+    padding: 55px 0px 55px 0px;
+}
+
+/* Fin de seccion ofertas */
+
+/* seccion contacto */
+main .MainFormulario {
+    background-color: rgb(201, 201, 201);
+    display: flex;
+    justify-content: center;
+}
+
+main .MainFormularioInformacionPersonal {
+    border: 10px solid #922323;
+    margin: 200 px;
+    padding: 10px 20px 20px 20px;
+    color: black;
+}
+
+main .MainTituloFormulario {
+    border: 3px solid red;
+    padding: 20px 20px 20px 20px;
+    color: black;
+    font-size: x-large;
+    font-family: font-family: 'Kufam', cursive;
+}
+
+/* fin seccion contacto */
+
+/*# sourceMappingURL=style.css.map */

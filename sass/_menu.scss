@@ -1,0 +1,56 @@
+/* <!-- Barra de Navegación --> */
+
+@import 'variables';
+
+header {
+    display: $flexbox;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    top: 0;
+    font-size: 33px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    z-index: 1;
+}
+header .NavMenu {
+    width: 100%;
+    height: 150px;
+    display: $flexbox;
+    justify-content: space-around;
+    border-bottom: 3px solid #e4e4e4; 
+    list-style: none;   
+}
+header .NavMenu a {
+    display: $flexbox;
+    justify-content: space-around;
+    text-decoration: none;   
+    color: rgb(34, 34, 34);
+    padding: 55px 100px 55px 100px;
+    font-size: x-large;
+    font-weight: 600;
+}
+header .NavMenu {
+    padding: 0px;
+}
+
+header .NavMenuLogo {
+    padding: 0px 100px 0px 100px;
+
+    a {
+        padding: 34px;
+    }
+}
+
+
+
+
+.NavMenu a:hover { /* para que si pasas el cursor
+    por un elemento encima se cambie el color
+     a otro color. Se ve super chevere  */
+    background-color: crimson;
+    color: white;
+    font-weight: 800;
+}
+

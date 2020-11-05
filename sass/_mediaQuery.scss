@@ -1,0 +1,19 @@
+/* Mobile styles - media query que en cada
+dispositivo me cambie el color de fondo, 
+destino a solo mobiles de 400 px*/
+@media only screen and (max-width: 400px) {
+    .MainSection {
+        width: 660px;
+        margin:0 auto;
+    }
+    .MainSectionTitulo {
+        width: 660px;
+        margin:0 auto;
+    }
+    .BackgroundPicture {
+        width: 100px;
+        height: 100px;
+    }
+
+}
+
